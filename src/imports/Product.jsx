@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faRupeeSign } from '@fortawesome/free-solid-svg-icons';
 
+
 const Product =({id, title, reviews, price, originalPrice, imgSrc })=> {
       return (
             <div className="col-6 col-lg-4">
